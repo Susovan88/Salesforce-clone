@@ -1,0 +1,478 @@
+body{
+    margin:0;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.chat-btn{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(52, 113, 254);
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(52, 113, 254);
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+}
+.chat-img{
+    height:2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+}
+
+.nav-bar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.left-btn{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1rem;
+}
+.left-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.left-btn img{
+    height: 4rem;
+    width: 4rem;
+}
+.right-btn{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0 2rem 0 2rem;
+    margin-left: 1rem;
+}
+.right-btn a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color:white;
+    padding: 0.5rem;
+   
+}
+.left-btn a:hover{
+    color: rgb(6, 127, 241);
+    font-weight: 700;
+}
+.right-btn button{
+    height: 3rem;
+    width: 7rem;
+    background-color: rgb(30, 198, 30);
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    font-weight: 700;
+}
+.right-btn button:hover{
+    background-color: rgb(50, 49, 49);
+    color: white;
+}
+.mid:hover{
+    border-radius: 50%;
+    color:rgb(0, 132, 255);
+    background-color: rgb(204, 227, 248);
+}
+.side:hover{
+    border-radius: 2rem;
+    color:rgb(0, 132, 255);
+    background-color: rgb(204, 227, 248);
+}
+.freeSpace{
+    height: 10%;
+    width: 100%;
+}
+.page1{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+} 
+.ads{
+    width: 100%;
+    background-color: rgb(1, 22, 70);
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+.ads a{
+    color: aliceblue;
+    margin-left:1rem;
+}
+.page2{
+    height: 65%;
+    width: 100%;
+}
+.page3{
+    width: 100%;
+    height:60% ;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625");
+    background-size: cover;
+}
+.page4{
+    width: 100%;
+    height:50% ;
+}
+.page3 button{
+    height: 3rem;
+    width: 11rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 3px solid  rgb(46, 106, 219);
+    color: rgb(46, 106, 219) ;
+    margin-top: 5rem;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.card{
+    height:27rem ;
+    width: 18rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 2px 1px 5px black ;
+}
+.card-img{
+    width: 100%;
+    border-radius: 1.5em;
+}
+.card .title{
+    font-size: 2rem;
+    font-weight: 400;
+    margin:2rem 0 2rem 0;
+}
+.card-text{
+    padding: 1.7rem;
+}
+.card .text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin:2rem 0 2rem 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://wp.salesforce.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640");
+    background-size: cover;
+}
+.cont-style{
+    height: 60vh;
+    width: 45%;
+    background-color: rgb(255, 255, 255);
+    padding: 2.5rem;
+    margin: 2rem 2rem 0 2rem;
+}
+.tag-line{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.cont-title{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+.cont-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+.cont-btn{
+    display: flex;
+    align-items: center;
+}
+.cont-btn button{
+    height: 3.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    margin: 2rem 2rem 2rem 1rem;
+}
+.cont2{
+    height: 40vh;
+    width: 45%;
+    position: relative;
+    right: 70px;
+    bottom: 50px;
+    border-radius: 2rem;
+    z-index: 0;
+}
+.videomp4{
+    width: 100%;
+    position: relative;
+    border-radius: 2rem;
+    z-index: 0;
+}
+.btn1{
+    background-color: rgb(46, 106, 219);
+    color: white;
+}
+.btn2{
+    color: rgb(46, 106, 219);
+    border: 3px solid rgb(46, 106, 219);
+}
+.btn1:hover{
+    background-color:rgb(1, 22, 70);
+}
+.btn2:hover{
+    background-color: rgb(214, 236, 254);
+}
+.page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pg4-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+}
+.pg-title{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.pg-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem;
+}
+.page5{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pg5-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card5{
+    height:25rem ;
+    width: 22rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 2px 1px 5px black ;
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card5-img{
+    width: 7rem;
+    padding: 1.5rem 0 0.5rem 0;
+
+}
+.title5{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0.8rem;
+}
+.text5{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0.8rem;
+}
+.module{
+    height: 2.5rem;
+    width: 4.5rem;
+    background-color: rgb(108, 152, 234);
+    color: white;
+    border-radius: 1rem;
+    margin-left:0.8rem;
+
+}
+.card5 .card-text{
+    padding: 0 1rem 1rem 1rem; 
+}
+.tag5{
+    color: black;
+    font-size: 1.2rem;
+    font-weight:540 ;
+    margin-left:0.8rem;
+    
+}
+.pg5-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem;
+}
+.pg5-btn{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    margin: 2rem;
+    align-self: center;
+}
+.page6{
+    height: 70vh;
+    width: 100vw;
+}
+.pg6-title{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 3rem 0 3rem 0;
+}
+.card6-img{
+    width: 18rem;
+    cursor: pointer;
+}
+
+.pg6-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pg6-card a{
+    color: rgb(1, 18, 59);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.pg6-card a:hover{
+    text-decoration: none;
+    color:rgb(46, 106, 219);
+}
+.page7{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.box7{
+    height: 30rem;
+    width:80% ;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 1.5rem;
+    background-color: white;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.tx7{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+.pg7-title{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 3rem 0 3rem 0;
+}
+.pg7-img{
+    height: 25rem;
+}
+.pg7-btn{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.page8{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 200px;
+}
+.box li{
+    margin-top: 1.5rem;
+}
+.box a{
+    text-decoration: none;
+    color:rgb(32, 104, 237) ;
+}
+ul div{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.linkURL{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(0, 54, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.linkURL button{
+    font-size: 1.5rem;
+    background-color:rgb(0, 54, 130) ;
+    margin-right: 2rem;
+    color:white;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.last a{
+    font-size: 1.5rem;
+    color:white;
+    margin-right: 4rem;
+    text-decoration: none;
+    opacity: 0.7;
+
+}
+.linkURL button:hover{
+    opacity: 1;
+}
+.last a:hover{
+    opacity: 1;
+}
